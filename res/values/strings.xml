@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Restaurants</string>
+
+    <!-- Main -->
+    <string name="search">Buscar</string>
+    <string name="help">Ayuda</string>
+
+    <!-- Busqueda -->
+    <string name="categories">Categorias</string>
+    <string name="near_me">Cerca de mi</string>
+    <string-array name="categories_list">
+        <item>Comida Arabe</item>
+        <item>Comida China</item>
+        <item>Comida Tipica</item>
+        <item>Comida Fusion</item>
+        <item>Comida Rapida</item>
+    </string-array>
+</resources>
