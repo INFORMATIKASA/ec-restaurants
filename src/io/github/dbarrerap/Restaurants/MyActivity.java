@@ -1,8 +1,10 @@
 package io.github.dbarrerap.Restaurants;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 
@@ -36,8 +38,11 @@ public class MyActivity extends SherlockActivity implements View.OnClickListener
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.searchButton:
+                Intent iSearch = new Intent(this, Busqueda.class);
+                startActivity(iSearch);
                 break;
             case R.id.helpButton:
+                Toast.makeText(this, "Unimplemented", Toast.LENGTH_SHORT).show();
                 break;
         }
 

@@ -23,6 +23,7 @@ public class Busqueda extends SherlockActivity implements AdapterView.OnItemClic
     private void setupWidgets() {
         // Popular ListView con todos los restaurantes en la base
 
+
         // Popular Spinner con Categorias de Comida
         categorias = (Spinner)findViewById(R.id.spinner);
         ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.string.categories, android.R.layout.simple_spinner_item);
