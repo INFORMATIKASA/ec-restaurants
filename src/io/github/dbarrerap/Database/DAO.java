@@ -46,6 +46,22 @@ public class DAO {
         return newRest;
     }
 
+    public List<Restaurant> filterRestaurants(String categoria) {
+        List<Restaurant> restaurants = new ArrayList<Restaurant>();
+
+        Cursor cursor = database.query(Data.TABLE_NAME, allColumns, Data.CATEGORY_COL + " = " + categoria, null, null, null, null);
+        cursor.moveToFirst();
+
+        while (!cursor.isAfterLast()) {
+            Restaurant restaurant = cursorToRestaurant(cursor);
+            restaurants.add(restaurant);
+            cursor.moveToNext();
+        }
+
+        cursor.close();
+        return restaurants;
+    }
+
     public List<Restaurant> allRestaurants() {
         List<Restaurant> restaurants = new ArrayList<Restaurant>();
 
