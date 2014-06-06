@@ -31,8 +31,15 @@ public class Data extends SQLiteOpenHelper {
             LONG_COL + " REAL);";
     private static final String SAMPLE_DATA = "INSERT INTO " + TABLE_NAME + " VALUES " +
             "(Malek Al Shawarma, Urdesa Central Ave. Victor Emilio Estrada y Guayacanes, 238-4162, ARABE, -2.165357, -79.911271)," +
-            "(Burger King, Urdesa Central Ave. Victor Emilio Estrada #600, 288-8863, RAPIDA, -2.173302, -79.906591),"+
-            "(Chifa Asia, Centro Sucre #321 y Chile, 2328088, CHINA, -2.195827, -79.882817)" +
+            "(Burger King, Urdesa Central Ave. Victor Emilio Estrada #600, 288-8863, RAPIDA, -2.173302, -79.906591)," +
+            "(Bhundeo Shawarma, Urbanización Entre Ríos Avenida Principal, 604-1390, ARABE, -2.148404, -79.864882)" +
+            "(La Parrilla del Ñato, Víctor Emilio Estrada 1219 y Laureles, 2387098, PARRILLA, -2.161525, -79.916654)" +
+            "(El Café de Tere, Avenida Hermano Miguel, Solar 7-21-22, 2237372, BARCAFE, -2.151184, -79.891983)" +
+            "(Cocolón, Plaza Orellana Av Francisco de Orellana, 263-4181, TIPICA, -2.164173, -79.896409)" +
+            "(Pique & Pase, Alejo Lascano # 1617 y Carchi, 2293309, TIPICA, 229-3309, -2.184591, -79.89437)" +
+            "(Dulcería La Palma, Escobedo No. 1308, entre Vélez y Luque, 2326185, POSTRES, -2.192152, -79.883725)" +
+            "(Akai Express, C.C. Riocentro Entrerios local C 6B, 283-6298, ORIENTAL, -2.141878, -79.864979)" +
+            "(Chifa Asia, Centro Sucre #321 y Chile, 2328088, ORIENTAL, -2.195827, -79.882817)" +
             ";";
 
     public Data(Context context) {

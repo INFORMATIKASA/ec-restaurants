@@ -11,9 +11,22 @@
     <string name="near_me">Cerca de mi</string>
     <string-array name="categories_list">
         <item>Comida Arabe</item>
-        <item>Comida China</item>
+        <item>Comida Oriental</item>
         <item>Comida Tipica</item>
-        <item>Comida Fusion</item>
         <item>Comida Rapida</item>
+        <item>Bar/Cafe</item>
+        <item>Parrilladas</item>
+        <item>Mariscos</item>
+        <item>Reposteria</item>
+    </string-array>
+    <string-array name="categories_values">
+        <item>ARABE</item>
+        <item>ORIENTAL</item>
+        <item>TIPICA</item>
+        <item>RAPIDA</item>
+        <item>BARCAFE</item>
+        <item>PARRILLA</item>
+        <item>MARISCO</item>
+        <item>POSTRES</item>
     </string-array>
 </resources>
